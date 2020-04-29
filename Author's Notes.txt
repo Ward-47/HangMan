@@ -1,0 +1,68 @@
+For this project, I have created a simple Hang Man game in C++. The 
+first thing I did at the start of this project is include the following
+libraries: iostream, vector, fstream, string, and time.h. After I have included 
+them, I have created a void method that will print out the messages of the 
+game located at both the top and the bottom. 
+
+In that void method, I have created an if then else statement that will print
+out the top border, declared a boolean variable that will set the front to true, 
+and a for loop, that will display the length of the border. Within that for loop 
+that displays the length of the border, I wrote if there is a front, then there will 
+be a placeholder for space in front of the message, otherwise the message will be added
+in the back, then set it to where the front is not equal to front. 
+
+After finishing the content within that for loop, I worte line of code that will 
+print out the actual message, and created an if statement on if the message is 
+printed at the bottom, then the border of the bottom message will be printed, 
+otherwise we will not print the top and the bottom. 
+
+After finishing the void function that prints the message, I have created another 
+void function that draws the Hang Man base on the amount of guesses counted 
+through a series of if, then, else statements within it. 
+
+Once I have finished writing out the contents of the void statement that draws out 
+the hang man base on the errors the user makes, I have wrote another void function 
+that will print out the letters, that the user can use to guess the word. Within it, 
+I have declared a string that represents an empty string, then wrote a for loop
+that allows us to go from A-Z. Within the for loop that lets us go through the 
+alphabet, I have wrote an if, then, else statement to where once we have looped 
+through all the letters, we can check if teh input string contains the current character, 
+and if it does not, then we write npos meaning that it did not find the letter, otherwise, 
+add an empty space. 
+
+After finishing the void function that prints the letters A-Z, I have written another
+void function that will print out the available letters with the input parameter taken. 
+Within, the void function, I have printed out the message to let the user know of the 
+available letters they can choose from to guess the word, and all of them are both 
+capitalized and lowercased meaning that the words they can guess strictly have characters
+that are both capitalized and lowercased meaning that if there is a name of someone or
+something, they will have to capitalized the first letter at all times. 
+
+Then, I have created a boolean function print out the word and checks to see if the user
+guessed the right word, and with it, declared a boolean that sets win to true and a string
+representing an empty space for the user to fill in. Within that boolean function, I 
+have written a for loop that looks through all the characters used by the user to guess
+the word, and within that for loop, I have written an if statement to where if the
+letter does not contain the lettor for the win, then it will be set to false for the
+win, otherwise the character will fill in the blank. 
+
+After filling out the contents of the boolean function, I have created a string function
+that loads a random word from the text file that contains all the words for the user to 
+guess, and within it, I have declared an integer that sets the line count to zero, a 
+string that will load a word from the text file, a vector used for resizing, and an 
+ifstream for file handling. Once I have declared the variables, I have written an if
+statement that checks if the reader is open. 
+
+Once the string function is completed, I created an integer function containing the 
+amount of tries the user has left, and it will contain teh string word and guessed 
+letters. Within it, I have declared an integer error that is set to zero, a for 
+loop for looking through all the guessed characters, and within that for loop is 
+an if statement that checks if the word does not contain the guessed character. 
+
+Then I finally created a main function, and within it declared a string random time 
+setting it to zero, the amount of guesses the player makes, the word to guess, and 
+assigned that word to guess string to load a random word from the text file that the
+user will need to guess. Then, I have created an integer representing the amount
+of tries the user has, which has been set to zero, a boolean that sets win to false, 
+a do while loop, that displays the interface of the game, rangin from messages, and 
+the letters for the user to input.  

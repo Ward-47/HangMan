@@ -1,0 +1,27 @@
+1. Download the Zip File containing the program. 
+
+2. Save it to the Desktop. 
+
+3. Open up the terminal. 
+
+	a. For Windows users. 
+		1. cd Desktop\Hangman_Game\Hangman_Game
+
+	a. For Linux/Mac users
+
+		1. cd Desktop/Hangman_Game/Hangman_Game
+
+	b. g++ Source.cpp -o Source.exe
+
+	c. Source.exe
+
+
+OR
+
+1. If the above does not work, then I suggest using an IDE like 
+Visual Studio to run the project. 
+
+
+
+
+HAVE FUN!!! :) 

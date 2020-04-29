@@ -1,0 +1,5 @@
+Rules are simple. The goal of the game is to use the available letters to guess the word
+(or type multiple letters at once to fill out the word, if you are confident enough), 
+but if you make eight mistakes, then it is game over.
+
+HAVE FUN!!! :) 
